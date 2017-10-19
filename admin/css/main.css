@@ -1,0 +1,109 @@
+body{
+	font-family: "arial";
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+
+.sidebar-left{
+	width: 250px;
+	float: left;
+	position: fixed;
+	height: 100%;
+	background: rgb(44, 44, 44);
+}
+
+#admin-header{
+	background: #095697;
+}
+
+.sidebar-right{
+	margin-left: 250px;
+	box-sizing: border-box;
+}
+
+.sidebar-right #content{
+	padding: 12px;
+}
+
+.sidebar-left ul{
+	padding: 0px;
+	list-style: outside none none;
+	margin: 0px;
+}
+
+.sidebar-left ul li a{
+	padding: 12px 6px;
+	border-bottom: 1px solid rgb(60, 60, 60);
+	background: rgb(44, 44, 44);
+	display: block;
+	text-decoration: none; 
+	color: #fff;
+}
+
+.sidebar-left ul li a:hover{background: #3B3B3B;}
+
+
+/*services style in My services page */
+.item{
+	border-bottom: 1px solid #D5D5D5;
+	background: #EDEDED none repeat scroll 0% 0%;
+	padding: 12px;
+	margin-bottom: 24px;
+}
+
+.item h3{
+	font-size: 18px;
+	margin: 0px 0px 6px 0px;
+}
+
+.item #details{
+	color: #353535;
+	text-indent: 24px;
+}
+
+.item #contact, #cat{
+	color: #fff;
+	font-style: italic;
+	background: #197FCB ;
+	padding: 2px 8px;
+	border-radius: 6px;
+}
+
+
+input[type="text"],textarea{
+	width: 700px;
+}
+
+textarea{
+	height: 200px;
+}
+
+#edit_btn{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	background: #0064B9 none repeat scroll 0% 0%;
+	padding: 4px 12px;
+	margin-left: 4px;
+}
+
+#edit_btn:hover{
+	background: #008AFF;
+}
+
+#msg{
+	background: rgb(0, 255, 156) none repeat scroll 0% 0%;
+	padding: 8px 4px;
+	color: rgb(24, 155, 95);
+	border: 1px solid rgb(0, 197, 92);
+}
+
+#msg-error{
+	background: none repeat scroll 0% 0% #FF5454;
+	padding: 8px 4px;
+	color: #FFF;
+	border: 1px solid #C51500;
+}
+
+
+.clear{clear: both;}
